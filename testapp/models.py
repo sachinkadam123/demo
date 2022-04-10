@@ -9,3 +9,5 @@ class Employee(models.Model):
     eaddr=models.CharField(max_length=30)
 def __str__(self):
     return 'Employee object with eno:+str(self.no)'
+
+print(Employee)
